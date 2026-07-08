@@ -37,4 +37,7 @@ function calculateResult(){
         inputFieldEl.value = "Error";
     }
 }  
+function appendValue(buttonValue){
+    inputFieldEl.value += buttonValue;
+}
 
